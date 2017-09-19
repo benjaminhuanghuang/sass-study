@@ -8,15 +8,15 @@
 
   sass preprocessor supports two syntax:
     - sass
-    ```
+```
     .container
       float: left
       width: 100%
       p
         color: #666
-    ```
+```
     - scss, a css-like syntax, in sass 3
-    ```
+```
     .container{
       float: left;
       width: 100;
@@ -24,7 +24,7 @@
         color: #666
       }
     }
-    ```
+```
     ![sass-scss cheat sheet](scss-sass-cheatsheet.png)
 
 ## Powerful capabilities
