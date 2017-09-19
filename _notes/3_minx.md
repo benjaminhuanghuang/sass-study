@@ -49,7 +49,14 @@
 - Pass content to mixin : @content
 ```
 @mixin apply-to-ie6{
-  @content
+  * html{
+    @content
+  }
 }
 
+@include apply-to-ie6{
+  body {
+    font-size: 125%
+  }
+}
 ```
