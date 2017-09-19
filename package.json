@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start":"lite-server",
-    "scss": "node-sass --watch scss -o css"
+    "scss": "node-sass --watch scss scss/main.scss scss/style.scss -o css"
   },
   "repository": {
     "type": "git",
