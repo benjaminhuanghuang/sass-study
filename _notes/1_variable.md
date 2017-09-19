@@ -1,0 +1,1 @@
+Put variables into a separate file
