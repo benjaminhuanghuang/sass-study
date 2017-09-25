@@ -7,7 +7,7 @@
   scss: Sassy css, is a super-set of CSS3's syntax. 
 
   sass preprocessor supports two syntax:
-  - sass
+  - sass, indented syntax
     ```
     .container
       float: left
@@ -15,7 +15,7 @@
       p
         color: #666
     ```
-  - scss, a css-like syntax, in sass 3
+  - scss, a css-like syntax, in sass 3, semicolons and curly brace
     ```
     .container{
       float: left;
